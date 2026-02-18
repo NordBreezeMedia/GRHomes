@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitchen Remodeling Gallery - Before & After</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .slider-gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 2rem;
+        }
+        .slider-img {
+            width: 600px;
+            height: 400px;
+            object-fit: contain;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            background: #232323;
+        }
+        .slider-controls {
+            margin-top: 1rem;
+            display: flex;
+            gap: 1.5rem;
+        }
+        .slider-btn {
+            background: #ffd600;
+            border: none;
+            border-radius: 50%;
+            width: 48px;
+            height: 48px;
+            font-size: 2rem;
+            cursor: pointer;
+            color: #1a2233;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-flex">
+            <nav style="margin-left:auto;">
+                <ul class="nav-menu">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2 style="text-align:center;margin-top:2rem;">Kitchen Remodeling: Before & After</h2>
+        <div class="slider-gallery">
+            <img id="kitchenSlider" class="slider-img" src="house-makeovers-before-and-after-design-cover_800.jpg" alt="Before Kitchen">
+            <div class="slider-controls">
+                <button class="slider-btn" onclick="showPrev()">&#10094;</button>
+                <button class="slider-btn" onclick="showNext()">&#10095;</button>
+            </div>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <p>&copy; 2026 GR Homes All rights reserved.</p>
+    </footer>
+    <script>
+        const images = [
+            'house-makeovers-before-and-after-design-cover_800.jpg',
+            'after-1.jpg'
+        ];
+        let current = 0;
+        const slider = document.getElementById('kitchenSlider');
+        function showPrev() {
+            current = (current - 1 + images.length) % images.length;
+            slider.src = images[current];
+        }
+        function showNext() {
+            current = (current + 1) % images.length;
+            slider.src = images[current];
+        }
+    </script>
+</body>
+</html>
