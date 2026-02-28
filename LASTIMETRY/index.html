@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <img src="GR_HOMES__1_-removebg-preview.png" alt="Logo" class="logo logo-large">
+        <div class="tabs">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <!-- Slider Section: Place your images in the slider-images folder and update the src below -->
+    <div class="slider-container">
+        <div class="slider">
+            <img src="slider-images/Screenshot 2026-02-19 151139.png" class="slide active" alt="Slide 1">
+            <img src="slider-images/Screenshot 2026-02-19 123647.png" class="slide" alt="Slide 2">
+            <img src="slider-images/Screenshot 2026-02-16 135527.png" class="slide" alt="Slide 3">
+        </div>
+        <button class="slider-btn prev">&#10094;</button>
+        <button class="slider-btn next">&#10095;</button>
+    </div>
+
+    <!-- Services: drip as background, content on top -->
+    <div class="services-drip-wrap">
+        <div class="services-section" id="services">
+        <h2>Our Services</h2>
+        <div class="services-boxes">
+            <div class="service-box">
+                <h3>Interior Painting</h3>
+                <p>Transform basements, kitchens, bathrooms, and more with professional interior painting for a fresh, modern look.</p>
+                <a href="#interior-gallery" class="read-more">Read More</a>
+            </div>
+            <div class="service-box">
+                <h3>Exterior Painting</h3>
+                <p>Enhance curb appeal with expert painting for brick, balconies, and all exterior surfaces of your home.</p>
+                <a href="#exterior-gallery" class="read-more">Read More</a>
+            </div>
+            <div class="service-box">
+                <h3>Industrial Painting</h3>
+                <p>Durable painting solutions for warehouses, metal structures, and commercial buildings—inside and out.</p>
+                <a href="#industrial-gallery" class="read-more">Read More</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="testimonials-section">
+    <section class="why-choose-section" id="why-choose">
+        <h2>Why Choose <span style="color:#0a318f">GR Paint</span>?</h2>
+        <p class="why-choose-desc">We bring years of experience, a commitment to quality, and a passion for delivering outstanding results. Our team ensures every project is completed efficiently, professionally, and at a great value for our clients.</p>
+        <div class="why-choose-row">
+                    <div class="cert-logo-corner">
+                        <img src="BBB-Logo-PNG-Image-removebg-preview.png" alt="BBB Accredited Business" class="cert-logo-corner-img">
+                        <img src="cert.png" alt="Certificate" class="cert-logo-corner-img">
+                    </div>
+            <div class="why-choose-circle">EXPERTISE</div>
+            <div class="why-choose-circle">QUALITY</div>
+            <div class="why-choose-circle">RELIABILITY</div>
+            <div class="why-choose-circle">PRICING</div>
+        </div>
+            <!-- Certification logos removed as requested -->
+        </div>
+    </section>
+
+        <div class="contact-section" id="contact">
+            <h2 class="contact-main-heading">Contact Us</h2>
+            <div class="contact-row contact-grid contact-screenshot-layout">
+                <div class="contact-info-grid screenshot-boxes">
+                    <div class="contact-info-box">
+                        <div class="contact-anim-icon">
+                            <!-- Animated Location Pin SVG -->
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <circle cx="20" cy="20" r="18" fill="#111" opacity="0.12">
+                                        <animate attributeName="r" values="18;20;18" dur="1.5s" repeatCount="indefinite"/>
+                                    </circle>
+                                    <path d="M20 10C16.13 10 13 13.13 13 17C13 22.25 20 30 20 30C20 30 27 22.25 27 17C27 13.13 23.87 10 20 10ZM20 19.5C18.62 19.5 17.5 18.38 17.5 17C17.5 15.62 18.62 14.5 20 14.5C21.38 14.5 22.5 15.62 22.5 17C22.5 18.38 21.38 19.5 20 19.5Z" fill="#111">
+                                        <animateTransform attributeName="transform" type="scale" values="1;1.08;1" dur="1.5s" repeatCount="indefinite" additive="sum"/>
+                                    </path>
+                                </g>
+                            </svg>
+                        </div>
+                        <div>11028 103 Ave<br>Peace River, Alberta</div>
+                    </div>
+                    <div class="contact-info-box">
+                        <div class="contact-anim-icon">
+                            <!-- Animated Clock SVG -->
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="20" r="18" fill="#111" opacity="0.12"/>
+                                <circle cx="20" cy="20" r="12" fill="#111"/>
+                                <rect x="19" y="13" width="2" height="8" rx="1" fill="#fff">
+                                    <animateTransform attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="6s" repeatCount="indefinite"/>
+                                </rect>
+                                <rect x="20" y="20" width="1.5" height="5" rx="0.75" fill="#fff">
+                                    <animateTransform attributeName="transform" type="rotate" from="0 20 20" to="360 20 20" dur="2s" repeatCount="indefinite"/>
+                                </rect>
+                            </svg>
+                        </div>
+                        <div>Mon–Fri: 9:00AM–5:00PM<br>Sat & Sun: By appointment</div>
+                    </div>
+                    <div class="contact-info-box">
+                        <div class="contact-anim-icon">
+                            <!-- Animated Phone SVG -->
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="20" r="18" fill="#111" opacity="0.12"/>
+                                <rect x="15" y="12" width="10" height="16" rx="5" fill="#111"/>
+                                <rect x="18" y="25" width="4" height="2" rx="1" fill="#fff">
+                                    <animate attributeName="y" values="25;23;25" dur="1.2s" repeatCount="indefinite"/>
+                                </rect>
+                            </svg>
+                        </div>
+                        <div>780-614-9089</div>
+                    </div>
+                    <div class="contact-info-box">
+                        <div class="contact-anim-icon">
+                            <!-- Animated Email SVG -->
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="20" cy="20" r="18" fill="#111" opacity="0.12"/>
+                                <rect x="10" y="15" width="20" height="12" rx="3" fill="#111"/>
+                                <polyline points="13,18 20,23 27,18" fill="none" stroke="#fff" stroke-width="2">
+                                    <animate attributeName="points" values="13,18 20,23 27,18;13,17 20,25 27,17;13,18 20,23 27,18" dur="1.5s" repeatCount="indefinite"/>
+                                </polyline>
+                            </svg>
+                        </div>
+                        <div>info@grpaint.com</div>
+                    </div>
+                </div>
+                <div class="contact-form-card screenshot-form-card">
+                    <h3 class="connect-heading">Connect With Us</h3>
+                    <form class="contact-form">
+                        <div class="form-fields">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    <div class="bbb-logo-container">
+        <!-- BBB Accredited Business logo removed as requested -->
+    </div>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-left">
+                <span class="footer-brand">GR Paint</span>
+                <span class="footer-copy">All rights reserved · 2026</span>
+            </div>
+            <div class="footer-right">
+                <span class="footer-powered">Website by</span>
+                <img src="footerbusinessnordbreeze.png" alt="Nord Breeze Media Logo" class="footer-logo">
+            </div>
+        </div>
+    </footer>
+
+    <script>
+// Simple slider logic
+const slides = document.querySelectorAll('.slide');
+const prevBtn = document.querySelector('.prev');
+const nextBtn = document.querySelector('.next');
+let currentSlide = 0;
+
+function showSlide(index) {
+    slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === index);
+    });
+}
+
+prevBtn.addEventListener('click', () => {
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    showSlide(currentSlide);
+});
+nextBtn.addEventListener('click', () => {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+});
+
+// Optional: auto-slide
+setInterval(() => {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+}, 5000);
+    </script>
+</body>
+</html>
