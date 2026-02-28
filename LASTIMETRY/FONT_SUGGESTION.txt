@@ -1,0 +1,12 @@
+I'm unable to view the actual GRPAINT.PNG logo image directly. To match the font as closely as possible, I'll suggest a few popular Google Fonts that are often used for logo-like, elegant, or artistic styles:
+
+1. "Playfair Display" – for a classic, elegant serif look.
+2. "Great Vibes" – for a script, handwritten style.
+3. "Bebas Neue" – for a bold, modern, all-caps look.
+4. "Lobster" – for a friendly, cursive style.
+
+I'll set your site to use Playfair Display, which is elegant and often used for branding. If you want a different style, let me know!
+
+---
+
+To apply Playfair Display, I'll update your HTML and CSS now.
